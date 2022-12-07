@@ -1,11 +1,13 @@
-import SceneA from "./SceneA";
+// import SceneA from "./SceneA";
+import SceneB from "./SceneB";
 
 function App() {
   return (
     <>
-      <SceneA />
+      {/*<SceneA />*/}
+      <SceneB />
     </>
-  );
+  )
 }
 
-export default App;
+export default App
