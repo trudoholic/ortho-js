@@ -6,6 +6,7 @@ import { Sphere } from '@react-three/drei'
 const SceneC = () => {
     return (
         <Canvas camera={{ position: [0, 0, 10] }}>
+            <ambientLight intensity={0.2} />
             <directionalLight intensity={0.5} />
             <Flex size={[300, 300, 300]} flexDirection="row" flexWrap="wrap">
                 <Box>
